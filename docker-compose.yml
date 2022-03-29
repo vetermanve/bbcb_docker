@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  oberon:
+    build:
+      context: ./
+    environment:
+      DISPLAY : "host.docker.internal:0"
+    command: "bbcb2"
+    volumes:
+    - ./:/srv/data
