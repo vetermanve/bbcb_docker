@@ -11,8 +11,8 @@ brew cask install XQuartz
 ```
 
 Then log out and log in to init XQuartz
-Open it
 
+Open XQuartz using command
 ```$xslt
 open -a Xquartz
 ```
